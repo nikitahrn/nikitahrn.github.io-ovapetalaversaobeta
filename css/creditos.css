@@ -1,12 +1,9 @@
 body{
 background-color:#66d9ff;
 padding-left:20px;
-padding-bottom:20px;
+padding-bottom:0px;
 padding-top:50px;
 padding-right:20px;
-margin:0px;
-margin-right:20px;
-margin-top:50px;
 }
 a{
 padding-right:30px;
