@@ -1,0 +1,36 @@
+body{
+background-color:#66d9ff;
+
+margin-left:1%;
+margin-top:10%;
+margin-bottom:10%;
+margin-right:10%;
+}
+
+.container{
+padding-top: 10px;
+padding-right:0px;
+background-color:#FFFFFF;
+width:900px;
+padding-bottom: 20px;
+}
+.logos{
+text-align: center;
+}
+footer{
+padding-top:5px;
+color:white;
+margin-left:18%;
+}
+
+.botao{
+padding-left:350px;
+}
+btn btn-default{
+	width: 150px; 
+	height: 40px; 
+	font-family:Arial; 
+	font-size:22px; 
+	word-spacing: 5px;
+	float:center;
+}
