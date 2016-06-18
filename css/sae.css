@@ -121,7 +121,11 @@ padding-right:50px;
 footer{
 background-color:#66d9ff;
 color:white;
-padding-left:110px;
+padding-top:0px;
+padding-right:20px;
+padding-bottom:10px;
+width:1000px;
+padding-left:270px;
 }
 
 table, th, td {
@@ -131,4 +135,19 @@ table, th, td {
 }
 th, td {
     padding: 5px;
+}
+.barra{
+	padding-top:10px;
+	
+}
+.atalhos{
+	padding-left: 300px;
+}
+div.scroll {
+    width: 950px;
+    height: 700px;
+    overflow: scroll;
+}
+.atalhos{
+	padding-left:210px;
 }

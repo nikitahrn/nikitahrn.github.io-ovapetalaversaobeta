@@ -1,5 +1,5 @@
 body{
-background-color:E62828;
+background-color:#d43f3a;
 padding-left:20px;
 padding-bottom:0px;
 padding-top:50px;
@@ -81,6 +81,7 @@ word-spacing: 5px;
 padding-left:50px;
 padding-right:50px;
 text-indent:50px;
+
 }
 img{
 padding-top:10px;
@@ -109,6 +110,7 @@ padding-bottom:10px;
 width:1000px;
 background-color:#FFFFFF;
 
+
 }
 .refletir{
 text-align:center;
@@ -119,9 +121,9 @@ padding-left:50px;
 padding-right:50px;
 }
 footer{
-background-color:#66d9ff;
+background-color:#d43f3a;
 color:white;
-padding-left:110px;
+padding-left:280px;
 }
 
 table, th, td {
@@ -131,4 +133,16 @@ table, th, td {
 }
 th, td {
     padding: 5px;
+}
+.barra{
+	padding-top:10px;
+}
+
+div.scroll {
+    width: 950px;
+    height: 700px;
+    overflow: scroll;
+}
+.atalhos{
+	text-align:center;
 }
