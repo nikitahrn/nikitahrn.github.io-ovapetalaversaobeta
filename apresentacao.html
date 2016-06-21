@@ -14,7 +14,16 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        
+         <script>
+			function newPageInicial() {
+				window.location.assign("paginainicial.html")
+			}
+			function newPageIndex() {
+				window.location.assign("index.html")
+			}
+			
+			
+		</script>
 
 	<title>SAE</title>
 	</head>
@@ -26,8 +35,8 @@
 	
 	<div class="barra">
 			<div class="btn-group" style="font-family: Arial;font-size:30px;">
-				<button class="btn btn-default" onClick="window.open('index.html')">Index</button>
-				<button class="btn btn-default" onClick="window.open('paginainicial.html')">Página Inicial</button>
+				<button class="btn btn-default" onClick="newPageIndex()">Index</button>
+				<button class="btn btn-default" onClick="newPageInicial()">Página Inicial</button>
 				<button class="btn btn-primary disabled">Apresentação</button>
 			</div>
 		</div>

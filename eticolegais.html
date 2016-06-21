@@ -14,7 +14,24 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        
+        <script>
+			function newPageInicial() {
+				window.location.assign("paginainicial.html")
+			}
+			function newPageEticolegais() {
+				window.location.assign("eticolegais.html")
+			}
+			function newPageSAE() {
+				window.location.assign("sae.html")
+			}
+			function newPageOperacionalizacao() {
+				window.location.assign("operacionalizacao.html")
+			}
+			function newPageProcesso() {
+				window.location.assign("processoenf.html")
+			}
+			
+		</script>
 
 	<title>SAE</title>
 	</head>
@@ -24,11 +41,11 @@
 	
 	<div class="barra">
 			<div class="btn-group" style="font-family: Arial;font-size:30px;">
-				<button class="btn btn-default" onClick="window.open('paginainicial.html')">Página Inicial</button>
-				<button class="btn btn-info" onClick="window.open('sae.html')">Sistematização da Assistência de Enfermagem </button>
+				<button class="btn btn-default" onClick="newPageInicial()">Página Inicial</button>
+				<button class="btn btn-info" onClick="newPageSAE()">Sistematização da Assistência de Enfermagem </button>
 				<button class="btn btn-success disabled" >Aspectos Ético-Legais</button>
-				<button class="btn btn-warning" onClick="window.open('operacionalizacao.html')">Operacionalização</button>
-				<button class="btn btn-danger"onClick="window.open('processoenf.html')">Processo de Enfermagem</button>
+				<button class="btn btn-warning" onClick="newPageOperacionalizacao()">Operacionalização</button>
+				<button class="btn btn-danger"onClick="newPageProcesso()">Processo de Enfermagem</button>
 			</div>
 		</div>
 		
